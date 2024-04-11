@@ -1,4 +1,4 @@
-## Automatic Tagging of Consumer Complaints
+# Automatic Tagging of Consumer Complaints
 
 ![Python version](https://img.shields.io/badge/python-3.9+-blue.svg) ![transformers](https://img.shields.io/badge/transformers-4.39.3+-yellow.svg) ![Streamlit version](https://img.shields.io/badge/streamlit-1.31.1-red.svg) 
 
