@@ -4,7 +4,10 @@
 
 ## Description
 
-Consumers can face challenges with financial products and services, leading to complaints that may not always be resolved directly with financial institutions. The **Consumer Financial Protection Bureau (CFPB)** acts as a mediator in these scenarios. However, consumers often struggle to categorize their complaints accurately, leading to inefficiencies in the resolution process. Our project aims to facilitate **faster complaint submission and resolution** by automatically categorizing complaints based on narrative descriptions, enhancing the efficiency of complaint management and smoothly routing it to the appropriate teams.
+- Consumers can face challenges with financial products and services, leading to complaints that may not always be resolved directly with financial institutions. The **Consumer Financial Protection Bureau (CFPB)** acts as a mediator in these scenarios. However, consumers often struggle to categorize their complaints accurately, leading to inefficiencies in the resolution process. Our project aims to facilitate **faster complaint submission and resolution** by automatically categorizing complaints directly based on narrative descriptions, enhancing the efficiency of complaint management and smoothly routing it to the appropriate teams. 
+
+- We developed a **Hybrid** approach by leveraging language models (**BERT**) and traditional machine learning techniques to find a trade-off between computational complexity and the need for model re-training. We've fine-tuned ![DistilBERT](https://huggingface.co/distilbert/distilbert-base-uncased) using the Consumer Complaints data on the main ![products]((https://huggingface.co/Mahesh9/distil-bert-fintuned-product-cfpb-complaints)) and ![issue](https://huggingface.co/Mahesh9/distil-bert-fintuned-issues-cfpb-complaints) categories, and used supervised classifiers for categorizing sub-products and sub-issues.
+
 
 ## Impact
 
