@@ -1,14 +1,3 @@
-# TagMyComplaint
-
-### Data Source:
-[Link to Consumer Complaints data](https://drive.google.com/file/d/1-0KAszo-DlmnlXKhk2V677kMnHsUrD7O/view?usp=drive_link)
-
-&nbsp;
-&nbsp;
-
-`Note:` Make sure to clone the repo and install plotly to visualize the graphs on the EDA notebook, since GitHub doesn't render Plotly graphs.
-
-
 ## Automatic Tagging of Consumer Complaints
 
 ![Python version](https://img.shields.io/badge/python-3.9+-blue.svg) ![transformers](https://img.shields.io/badge/transformers-4.39.3+-yellow.svg) ![Streamlit version](https://img.shields.io/badge/streamlit-1.31.1-red.svg) 
@@ -70,6 +59,18 @@ streamlit run main.py
 ```
 
 After completing these steps, the application should be running on your local server. Open your web browser and navigate to http://localhost:8501 to start exploring the Consumer Complaint Insights 2023.
+
+
+# TagMyComplaint
+
+### Data Source:
+[Link to Consumer Complaints data](https://drive.google.com/file/d/1-0KAszo-DlmnlXKhk2V677kMnHsUrD7O/view?usp=drive_link)
+
+&nbsp;
+&nbsp;
+
+`Note:` Make sure to clone the repo and install plotly to visualize the graphs on the EDA notebook, since GitHub doesn't render Plotly graphs.
+
 
 
 ## References
