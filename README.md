@@ -64,21 +64,13 @@ streamlit run main.py
 After completing these steps, the application should be running on your local server. Open your web browser and navigate to http://localhost:8501 to start exploring the Consumer Complaint Insights 2023.
 
 
-### Data Source:
-[Link to the data file we've used for training:](https://drive.google.com/file/d/1-0KAszo-DlmnlXKhk2V677kMnHsUrD7O/view?usp=drive_link)
-
-
-
 ## References
 
-This application is built using Streamlit. For more detailed information to explore the raw data, visit the official Consumer Complaints Database:
-
-[Consumer Complaints Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+- This application is built using [Streamlit](https://streamlit.io).
+- For more detailed information to explore the raw data, visit the official Consumer Complaints Database: [CFPB Complaints Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+- [Link to the data file we've used for training](https://drive.google.com/file/d/1-0KAszo-DlmnlXKhk2V677kMnHsUrD7O/view?usp=drive_link)
 
 &nbsp;
-
-[Link to the data file we've used for training:](https://drive.google.com/file/d/1-0KAszo-DlmnlXKhk2V677kMnHsUrD7O/view?usp=drive_link)
-
 Feel free to contribute to the project by submitting issues or pull requests on GitHub. Your feedback and contributions are highly appreciated!
 
 
