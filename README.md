@@ -4,8 +4,8 @@
 
 ## Description
 
-- Consumers can face challenges with financial products and services, leading to complaints that may not always be resolved directly with financial institutions. The **Consumer Financial Protection Bureau (CFPB)** acts as a mediator in these scenarios. However, consumers often struggle to categorize their complaints accurately, leading to inefficiencies in the resolution process. Our project aims to facilitate **faster complaint submission and resolution** by automatically categorizing complaints directly based on narrative descriptions, enhancing the efficiency of complaint management and smoothly routing it to the appropriate teams. 
-
+- Consumers can face challenges with financial products and services, leading to complaints that may not always be resolved directly with financial institutions. The **Consumer Financial Protection Bureau (CFPB)** acts as a mediator in these scenarios. However, consumers often struggle to categorize their complaints accurately, leading to inefficiencies in the resolution process.
+- Our project aims to facilitate **faster complaint submission and resolution** by automatically categorizing complaints directly based on narrative descriptions, enhancing the efficiency of complaint management and smoothly routing it to the appropriate teams. 
 - We developed a **Hybrid** approach by leveraging language models (**BERT**) and traditional machine learning techniques to find a trade-off between computational complexity and the need for model re-training. We've fine-tuned [DistilBERT](https://huggingface.co/distilbert/distilbert-base-uncased) using the Consumer Complaints data on the main [product](https://huggingface.co/Mahesh9/distil-bert-fintuned-product-cfpb-complaints) and [issue](https://huggingface.co/Mahesh9/distil-bert-fintuned-issues-cfpb-complaints) categories, and used supervised classifiers for categorizing sub-products and sub-issues.
 
 
@@ -64,15 +64,8 @@ streamlit run main.py
 After completing these steps, the application should be running on your local server. Open your web browser and navigate to http://localhost:8501 to start exploring the Consumer Complaint Insights 2023.
 
 
-# TagMyComplaint
-
 ### Data Source:
-[Link to Consumer Complaints data](https://drive.google.com/file/d/1-0KAszo-DlmnlXKhk2V677kMnHsUrD7O/view?usp=drive_link)
-
-&nbsp;
-&nbsp;
-
-`Note:` Make sure to clone the repo and install plotly to visualize the graphs on the EDA notebook, since GitHub doesn't render Plotly graphs.
+[Link to the data file we've used for training:](https://drive.google.com/file/d/1-0KAszo-DlmnlXKhk2V677kMnHsUrD7O/view?usp=drive_link)
 
 
 
@@ -81,6 +74,10 @@ After completing these steps, the application should be running on your local se
 This application is built using Streamlit. For more detailed information to explore the raw data, visit the official Consumer Complaints Database:
 
 [Consumer Complaints Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+
+&nbsp;
+
+[Link to the data file we've used for training:](https://drive.google.com/file/d/1-0KAszo-DlmnlXKhk2V677kMnHsUrD7O/view?usp=drive_link)
 
 Feel free to contribute to the project by submitting issues or pull requests on GitHub. Your feedback and contributions are highly appreciated!
 
