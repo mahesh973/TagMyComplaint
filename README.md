@@ -22,14 +22,7 @@ The implementation of our project has two primary impacts:
 
 ## App Demo
 
-##![Demo](https://github.com/mahesh973/TagMyComplaint/assets/59694546/6bb06562-3d97-40f5-afb1-12add20c9812)
-
-
-
-https://github.com/mahesh973/TagMyComplaint/assets/59694546/ad69f832-380f-48e9-a271-440f5673094d
-
-
-
+![Demo](https://github.com/mahesh973/TagMyComplaint/assets/59694546/6bb06562-3d97-40f5-afb1-12add20c9812)
 &nbsp;
 
 ## Model Workflow
