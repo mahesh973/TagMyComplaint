@@ -72,7 +72,10 @@ After completing these steps, the application should be running on your local se
 - For more detailed information to explore the raw data, visit the official Consumer Complaints Database: [CFPB Complaints Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
 - [Link to the data file we've used for training](https://drive.google.com/file/d/1-0KAszo-DlmnlXKhk2V677kMnHsUrD7O/view?usp=drive_link)
 
+
 &nbsp;
+&nbsp;
+
 Feel free to contribute to the project by submitting issues or pull requests on GitHub. Your feedback and contributions are highly appreciated!
 
 
