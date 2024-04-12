@@ -15,9 +15,9 @@
 
 The implementation of our project has two primary impacts:
 
-**Ease for Consumers:** Automates the tagging of complaints into appropriate categories, reducing the need for consumers to understand complex financial product categories.
+- **Ease for Consumers:** Automates the tagging of complaints into appropriate categories, reducing the need for consumers to understand complex financial product categories.
 
-**Industry Adoption:** Offers a streamlined approach to complaint handling that can be adopted by financial institutions beyond the CFPB, promoting consistency across the industry.
+- **Industry Adoption:** Offers a streamlined approach to complaint handling that can be adopted by financial institutions beyond the CFPB, promoting consistency across the industry.
 
 
 ## App Demo
