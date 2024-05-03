@@ -25,6 +25,9 @@ The implementation of our project has two primary impacts:
 ![Demo](https://github.com/mahesh973/TagMyComplaint/assets/59694546/6bb06562-3d97-40f5-afb1-12add20c9812)
 &nbsp;
 
+Checkout the app deployed on HuggingFace Spaces : https://huggingface.co/spaces/Mahesh9/CFPB-Complaint-Classifier
+
+
 ## Model Workflow
 
 ![Model Workflow](https://github.com/mahesh973/TagMyComplaint/assets/59694546/256b0003-3807-4eb7-9e19-ab94cd09686a)
