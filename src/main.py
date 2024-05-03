@@ -339,25 +339,28 @@ elif selected == "Complaint Classifier":
     # Using a key for the text_area widget to reference its current value
     query = st.text_area("Enter your complaint:", placeholder="It is absurd that I have consistently made timely payments for this account and have never been overdue. I kindly request that you promptly update my account to reflect this accurately.", key="input_text")
     if st.button("Classify Complaint"):
-        with st.spinner("Classifying Complaint..."):
-            result = classify_complaint(query)
-            if result:  # Check if the result is not empty
-                st.success("Complaint Classification Results:")
-                
-                #Using HTML for better control over formatting
-                st.markdown(f"""
-                **Product:** :blue[{result.get("Product")}]<br>
+        if query.strip():  # Check if the input is not empty
+            with st.spinner("Classifying Complaint..."):
+                result = classify_complaint(query)
+                if result:  # Check if the result is not empty
+                    st.success("Complaint Classification Results:")
+                    
+                    #Using HTML for better control over formatting
+                    st.markdown(f"""
+                    **Product:** :blue[{result.get("Product")}]<br>
 
-                **Sub-product:** :green[{result.get("Sub-product")}]<br>
+                    **Sub-product:** :green[{result.get("Sub-product")}]<br>
 
-                **Issue:** :red[{result.get("Issue")}]<br>
+                    **Issue:** :red[{result.get("Issue")}]<br>
 
-                **Sub-issue:** :orange[{result.get("Sub-issue")}]<br>
+                    **Sub-issue:** :orange[{result.get("Sub-issue")}]<br>
 
-                """, unsafe_allow_html=True)
-                st.write("\n\n")
-                st.header("", divider= 'rainbow')
-            else:
-                st.error("Failed to classify the complaint. Please try again.")
-            #time.sleep(1)
-            st.balloons()  # Celebratory balloons on successful classification
+                    """, unsafe_allow_html=True)
+                    st.write("\n\n")
+                    st.header("", divider= 'rainbow')
+                else:
+                    st.error("Failed to classify the complaint. Please try again.")
+                #time.sleep(1)
+                st.balloons()  # Celebratory balloons on successful classification
+        else:
+            st.info("Please enter a complaint to classify.")
